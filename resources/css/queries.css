@@ -1,0 +1,338 @@
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{
+        padding: 0 2%;
+    }
+
+    .works-step:last-of-type{
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+body{
+    font-size: 18px;
+}
+
+section{padding: 60px 0;}
+
+.long-copy{
+    width: 80%;
+    margin-left: 15px;
+}
+
+.contact-form{
+    width: 80%;
+}
+
+
+.works-step{
+    margin-bottom: 40px;
+    
+}
+
+.steps-box{
+margin-top: 10px;
+
+}
+
+.steps-box:last-of-type{
+margin-bottom: 60px;
+}
+
+
+.works-step:last-of-type{
+    margin-bottom: 60px;
+}
+
+
+.icon-small{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.app-screen{
+    width: 50%;
+}
+
+.city-feature{
+    font-size: 90%;
+}
+
+.plan-box{
+    width: 95%;
+}
+
+
+.plan-price{
+    font-size: 205%;
+}
+
+.plan-price span{
+    font-size: 65%;
+}
+
+
+
+footer .footer-nav li{
+   font-size: 80%;
+    margin: 30px 6px;
+}
+
+footer .social-links li{
+    margin: 20px 12px;
+ 
+}
+    
+
+}
+
+@media only screen and (max-width: 767px){
+body{font-size: 16px;}
+
+.box{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.row, .hero-text-box{
+    padding: 0 4%;
+}
+
+.col{
+    width: 100%;
+    margin: 0 0 4% 0;
+}
+
+.btn{
+    margin: 5px;
+}
+
+
+h2::after{
+  
+    margin-top: 10px;
+}
+
+/* .main-nav{
+    display: none;
+}
+ */
+
+.mobile-nav-icon{
+    display: inline-block;
+}
+
+.main-nav{
+        float: left;
+        margin-top: 20px;
+        margin-left: 30px;
+        display: none;
+} 
+
+.main-nav li {
+    display: block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    display: block;
+    border: 0;
+}
+
+.cross{
+    display: none;
+}
+
+/* .hamburger{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    cursor: pointer;
+    display: block;
+}
+
+.sticky .hamburger{
+    top: 16px;
+    color: black;
+    display: block;
+} */
+
+.logo-black{
+    float: left;
+}
+
+
+
+.section-cities .row > div{
+    margin: 0;
+}
+
+.section-cities .box img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 180%;
+}
+
+h2{
+    font-size: 130%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.long-copy{
+    width: 100%;
+    margin-left: 0%;
+}
+
+
+.steps-box:last-child{
+    margin: 15px 0;
+}
+
+.steps-box:first-child{
+    text-align: center;
+}
+
+.section-features{
+    padding: 30px 0;
+}
+
+.app-screen{
+    width: 30%;
+}
+
+.works-step div{
+    font-size: 120%;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.works-step{
+    margin-bottom: 30px;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 35px;
+}
+
+.btn-app img{
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+  
+}
+
+.section-testimonials .row > div{
+   
+   margin: 32px 0;
+}
+
+
+blockquote::before{
+    margin: 1px 0;
+    top: -5px;
+    left: -5px;
+}
+
+cite{
+     margin-top: 7px;
+}
+
+.section-plans .row > div{
+  
+    text-align: center;
+    margin-left: 0;
+    padding-right: 4%;
+}
+
+.plan-price{
+    font-size: 195%;
+}
+
+.plan-price span{
+    font-size: 55%;
+}
+
+
+.section-cities{
+    padding: 25px 0;
+
+}
+
+.section-testimonials{
+    padding: 25px 0;
+}
+
+.section-steps{
+    padding: 25px 0;
+}
+
+.section-plans{
+    padding: 25px 0;
+}
+
+.section-form{
+    padding: 25px 0;
+}
+
+footer .row .col{
+   text-align: center;
+   margin-bottom: 0;
+}
+
+footer .row .social-links{
+    display: inline-block;
+
+}
+
+.footer .row{
+    padding: 10px;
+}
+
+
+
+.footer-nav{
+    display: inline-block;
+}
+
+footer{
+    padding: 20px 0;
+}
+
+.displaying{
+    display: block;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+
+section{
+    padding: 25px 0;
+}
+
+
+.contact-form{
+    width: 100%;
+}
+
+footer .footer-nav{
+    font-size: 80%;
+}
+
+
+
+}
